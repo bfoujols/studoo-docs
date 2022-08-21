@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Studoo](README.md)
+* [Welcome](README.md)
+* [Changelog](changelog.md)
 
 ## Contribution
 

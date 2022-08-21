@@ -29,13 +29,13 @@ curl -JOL https://clue.engineering/phar-composer-latest.phartbas
 2/ Téléchargement des sources
 
 ```
-git clone git@github.com:bfoujols/cli-manage-student.git
+git clone git@github.com:bfoujols/studoo.git
 ```
 
 3/ Entrer dans le répertoire des sources
 
 ```bash
-cd acli-manage-student
+cd studoo
 ```
 
 4/ Télécharger les vendors (librairie) via composer
@@ -53,25 +53,25 @@ cd ..
 6/ Excécuter la commande pour création de l'exécutable
 
 ```bash
-php -d phar.readonly=off phar-composer.phar build cli-manage-student
+php -d phar.readonly=off phar-composer.phar build studoo
 ```
 
 _Résultat :_&#x20;
 
 ```
 [1/1] Creating phar mstud.phar
-  - Adding main package "bfoujols/mstud"
+  - Adding main package "bfoujols/studoo"
   - Adding composer base files
   [...]
-  - Setting main/stub
+  - Setting main/studoo
     Using referenced shebang "#!/usr/bin/env php"
     Using referenced chmod 0644
     Applying chmod 0644
-    OK - Creating mstud.phar (1091.6 KiB) completed after 0.1s
+    OK - Creating studoo.phar (1091.6 KiB) completed after 0.1s
 ```
 
 _7/ Vérification du bon fonctionnement de l'exécutable_
 
 ```bash
-php mstud.phar --version
+php studoo.phar --version
 ```

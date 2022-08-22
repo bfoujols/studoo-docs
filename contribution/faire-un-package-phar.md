@@ -29,7 +29,7 @@ Plus d'information sur la page "Testing" :
 1/ La création du package nécessite une librairie "clue/phar-composer"
 
 ```bash
-curl -JOL https://clue.engineering/phar-composer-latest.phartbas
+curl -JOL https://clue.engineering/phar-composer-latest.phar
 ```
 
 2/ Téléchargement des sources

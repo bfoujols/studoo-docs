@@ -5,5 +5,6 @@
 
 ## Contribution
 
+* [Develop](contribution/develop.md)
 * [Testing](contribution/testing.md)
 * [Faire un package (phar)](contribution/faire-un-package-phar.md)

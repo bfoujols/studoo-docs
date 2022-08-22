@@ -1,5 +1,13 @@
 # Changelog
 
+### 0.6.0-alpha
+
+**New feature :**
+
+* New branding
+* Ajout d'un fichier de lock pour vérifier les process
+* Nouvelle infrastructure chez AWS
+
 ### 0.5.0-alpha
 
 **New feature :**

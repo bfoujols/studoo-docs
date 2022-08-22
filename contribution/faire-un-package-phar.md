@@ -18,6 +18,12 @@ Cette commande est raccourcie via l'outil Composer. Il exécute la commande suiv
 php vendor/bin/phpunit --testdox tests
 ```
 
+Plus d'information sur la page "Testing" :
+
+{% content-ref url="testing.md" %}
+[testing.md](testing.md)
+{% endcontent-ref %}
+
 ### Création du package
 
 1/ La création du package nécessite une librairie "clue/phar-composer"
